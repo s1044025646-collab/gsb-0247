@@ -1,0 +1,22 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test test/evaluate.test.ts test/service.test.ts",
+    "start": "node dist/cli.js serve",
+    "demo": "node dist/cli.js demo",
+    "cli": "node dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
+
+
